@@ -21,25 +21,3 @@ npm run dev
 ```
 
 ---
-
-##  Configuración del Formulario (EmailJS)
-
-El formulario de contacto ya está integrado con **EmailJS**. Si necesitas cambiar el destino de los correos, abre el archivo `src/components/Contact.jsx` y modifica los siguientes parámetros que encontrarás comentados en el código:
-
-*   **Service ID**: `service_vxf6t5h`
-*   **Template ID**: `template_c929qep`
-*   **Public Key**: `1Qj2PaoMM5pvxP_Ht`
-
-## Tecnologías utilizadas
-
-- **React 18** + **Vite**
-- **Tailwind CSS v4** (Estilizado Premium)
-- **Lucide React** (Iconos)
-- **EmailJS** (Envío de correos real)
-- **React Router Hash Link** (Navegación fluida)
-
----
-
-##  Notas
-- El portafolio está totalmente **anonimizado** con textos de relleno (Lorem Ipsum).
-- El código está libre de comentarios innecesarios y gradientes, siguiendo una estética limpia y minimalista.
