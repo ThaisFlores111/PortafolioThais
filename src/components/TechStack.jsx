@@ -13,7 +13,7 @@ const TechStack = () => {
                         <div className="absolute -bottom-2 left-0 right-0 h-1 bg-pink-400/40 rounded-full"></div>
                     </h2>
                     <p className="text-slate-400 max-w-xl mx-auto text-xl font-light text-balance pt-4">
-                        Herramientas que utilizo para transformar ideas en realidades digitales <span className="text-pink-400">excepcionales</span>.
+                        Estas son las herramientas que he logrado aprender hasta ahora
                     </p>
                 </div>
 

@@ -53,15 +53,13 @@ function App() {
           <div className="container mx-auto px-6">
             <div className="flex flex-col items-center gap-10">
               <span className="text-4xl font-black tracking-tighter text-white">
-                LOREM<span className="text-pink-400">.</span>
+                Thais Flores<span className="text-pink-400">.</span>
               </span>
               <p className="max-w-md text-xl font-light leading-relaxed text-balance text-slate-500 italic">
-                "Diseñando experiencias digitales con elegancia y propósito."
+                "Diseñando experiencias digitales con creatividad y innovación"
               </p>
               <div className="h-[2px] w-20 bg-pink-500/20 rounded-full"></div>
-              <p className="text-[10px] uppercase tracking-[0.4em] font-black opacity-40">
-                © {new Date().getFullYear()} — Desarrollada con React & Tailwind
-              </p>
+              
             </div>
           </div>
         </footer>

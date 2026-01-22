@@ -37,7 +37,7 @@ const Navbar = () => {
                     scroll={el => scrollWithOffset(el)}
                     className="text-2xl font-black tracking-tighter text-white hover:text-pink-400 transition-colors"
                 >
-                    LOREM<span className="text-pink-400">.</span>
+                    Thais<span className="text-pink-400"> Flores</span>
                 </Link>
 
                 <div className="hidden md:flex items-center space-x-10 text-slate-300">

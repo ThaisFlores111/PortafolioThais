@@ -44,14 +44,14 @@ const ProjectDetail = () => {
                         </p>
 
                         <div className="flex flex-wrap gap-4 pt-4">
-                            <a href="#" className="flex items-center gap-2 px-8 py-4 bg-pink-500 text-white rounded-2xl font-black hover:bg-pink-600 transition-all shadow-lg shadow-pink-500/20">
+                            <a href={project.projectUrl} className="flex items-center gap-2 px-8 py-4 bg-pink-500 text-white rounded-2xl font-black hover:bg-pink-600 transition-all shadow-lg shadow-pink-500/20">
                                 <ExternalLink size={18} /> Ver Proyecto
                             </a>
-                            <a href="#" className="flex items-center gap-2 px-8 py-4 bg-slate-900 border border-slate-800 rounded-2xl font-black hover:bg-slate-800 transition-all">
+                            <a href={project.githubUrl} className="flex items-center gap-2 px-8 py-4 bg-slate-900 border border-slate-800 rounded-2xl font-black hover:bg-slate-800 transition-all">
                                 <Github size={18} /> Código Fuente
                             </a>
                             <a
-                                href="/cv-dummy.pdf"
+                                href={project.cvUrl}
                                 download
                                 className="flex items-center gap-2 px-8 py-4 bg-white text-slate-900 rounded-2xl font-black hover:bg-slate-100 transition-all"
                             >

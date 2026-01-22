@@ -21,14 +21,14 @@ const Contact = () => {
 
         try {
             await emailjs.send(
-                'service_vxf6t5h', // <-- CAMBIAR AQUÍ: Service ID
-                'template_c929qep', // <-- CAMBIAR AQUÍ: Template ID
+                'service_rilul7c', // <-- CAMBIAR AQUÍ: Service ID
+                'template_hfpcqjg', // <-- CAMBIAR AQUÍ: Template ID
                 {
                     nombre: formData.nombre,
                     email: formData.email,
                     mensaje: formData.mensaje,
                 },
-                '1Qj2PaoMM5pvxP_Ht' // <-- CAMBIAR AQUÍ: Public Key (Se encuentra en 'Account' -> 'API Keys')
+                'NDUwzHtpHDPw7W2mj' // <-- CAMBIAR AQUÍ: Public Key (Se encuentra en 'Account' -> 'API Keys')
             );
 
             setStatus('sent');
@@ -69,15 +69,15 @@ const Contact = () => {
                                     </div>
                                     <div className="min-w-0 flex-1">
                                         <div className="text-[10px] font-black text-pink-400 group-hover:text-white/80 uppercase tracking-[0.3em] mb-1">Escríbeme</div>
-                                        <div className="text-xl font-black truncate tracking-tight">danteyupanqui.yr@gmail.com</div>
+                                        <div className="text-xl font-black truncate tracking-tight">floresgutierrezthaisdaniela@gmail.com</div>
                                     </div>
                                 </a>
 
                                 <div className="flex flex-wrap gap-4 pt-4">
                                     {[
-                                        { icon: <Linkedin size={24} />, label: 'LinkedIn', href: '#' },
-                                        { icon: <Github size={24} />, label: 'GitHub', href: '#' },
-                                        { icon: <MessageSquare size={24} />, label: 'Twitter', href: '#' }
+                                        { icon: <Linkedin size={24} />, label: 'LinkedIn', href: 'https://www.linkedin.com/in/thais-flores-650632291?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app' },
+                                        { icon: <Github size={24} />, label: 'GitHub', href: 'https://github.com/ThaisFlores111' },
+                                        
                                     ].map((social) => (
                                         <a
                                             key={social.label}

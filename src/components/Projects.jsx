@@ -15,7 +15,7 @@ const Projects = () => {
                         <div className="absolute -bottom-2 left-0 right-0 h-1 bg-fuchsia-400/40 rounded-full"></div>
                     </h2>
                     <p className="text-slate-400 max-w-xl mx-auto text-xl font-light text-balance pt-4">
-                        Una selección de trabajos desarrollados con <Heart size={20} className="inline text-pink-400 fill-pink-400/20" /> y precisión.
+                        Trabajos en los que participé y que realicé.
                     </p>
                 </div>
 
