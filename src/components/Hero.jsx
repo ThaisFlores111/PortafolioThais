@@ -50,7 +50,7 @@ const Hero = () => {
           <div className="absolute -inset-4 bg-pink-500/10 rounded-[4rem] blur-2xl group-hover:bg-pink-500/20 transition duration-1000"></div>
           <div className="relative aspect-[4/5] rounded-[3.5rem] overflow-hidden shadow-2xl bg-slate-800/50 border border-white/5">
             <div className="w-full h-full flex items-center justify-center text-slate-700 text-9xl font-thin">
-              <img src="src\assets\profilee.jpeg" alt="" />
+              <img src="\profilee.jpeg" alt="" />
             </div>
           </div>
           <div className="absolute -bottom-8 -right-8 p-8 glass rounded-[2.5rem] shadow-2xl flex items-center gap-5 border border-white/10">
