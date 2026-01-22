@@ -37,7 +37,7 @@ const Hero = () => {
               Ver Proyectos <ArrowRight size={22} />
             </a>
             <a
-              href="/src/assets/CV-THAIS.pdf"
+              href="/CV-THAIS.pdf"
               download
               className="px-10 py-5 bg-white text-slate-900 rounded-full font-black text-lg transition-all transform hover:-translate-y-1 flex items-center gap-3 shadow-2xl shadow-white/10"
             >
